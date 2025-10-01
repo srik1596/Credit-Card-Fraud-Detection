@@ -3,24 +3,31 @@
 This project aims to detect fraudulent credit card transactions by applying anomaly detection and machine learning techniques. Given the severe class imbalance (very few fraud cases), the workflow focuses on preprocessing, model tuning, combining multiple methods, and visualizing insights.
 ________________________________________
 🛠 Workflow & Steps
-Import & Setup
+1. Import & Setup
 Loaded necessary Python libraries (e.g. pandas, scikit-learn, matplotlib, seaborn).
-Dataset Structuring & Exploration
+
+2. Dataset Structuring & Exploration
 Organized dataset; explored basic structure (rows, features, types).
-Class Imbalance Detection & Visualization
+
+3. Class Imbalance Detection & Visualization
 Discovered heavy class imbalance (fraudulent cases are rare).
 Visualized distributions, trends, and feature relationships across fraud vs non-fraud.
-Scaling & Train/Test Split
+
+4. Scaling & Train/Test Split
 Applied feature scaling (e.g. StandardScaler / MinMax) and split data into training and testing sets.
-Isolation Forest Modeling
+
+5. Isolation Forest Modeling
 Trained an IsolationForest model; tuned the threshold automatically to detect anomalies.
-PCA + DBSCAN Optimization
+
+6. PCA + DBSCAN Optimization
 Applied PCA for dimensionality reduction, then used DBSCAN to cluster and isolate potential anomalies.
-Result Combination & Evaluation
-Merged outputs / decisions from different models.
-Since results were not initially satisfactory, performed hyperparameter tuning.
-Evaluated performance using classification metrics (precision, recall, F1), and visualized with a confusion matrix.
-Performance Summary
+
+7. Result Combination & Evaluation
+   Merged outputs / decisions from different models.
+   Since results were not initially satisfactory, performed hyperparameter tuning.
+   Evaluated performance using classification metrics (precision, recall, F1), and visualized with a confusion matrix.
+
+8. Performance Summary
 Final confusion matrix:
      [[55586  1065]
      [   25    70]]
@@ -32,9 +39,11 @@ o	Accuracy: 0.98
 o	Macro Avg: Precision 0.53 | Recall 0.86 | F1 0.55
 o	Weighted Avg: Precision ~1.00 | Recall ~0.98 | F1 ~0.99
 The model is strong in identifying normal (non-fraud) transactions but still struggles with fraud class due to its rarity.
-SQL Aggregations
-Performed varied SQL queries to aggregate insights on fraudulent transactions (e.g. by time, amount, user behavior).
-Visualization & Dashboard
+
+9. SQL Aggregations
+   Performed varied SQL queries to aggregate insights on fraudulent transactions (e.g. by time, amount, user behavior).
+
+10. Visualization & Dashboard
 Presented all key findings and metrics using Power BI dashboards and visual reports.
 ________________________________________
 📌 Key Takeaways & Challenges
