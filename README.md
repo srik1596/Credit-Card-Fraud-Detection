@@ -14,7 +14,7 @@ Discovered heavy class imbalance (fraudulent cases are rare).
 Visualized distributions, trends, and feature relationships across fraud vs non-fraud.
 
 4. Scaling & Train/Test Split
-Applied feature scaling (e.g. StandardScaler / MinMax) and split data into training and testing sets.
+Applied feature scaling using StandardScaler and split data into training and testing sets.
 
 5. Isolation Forest Modeling
 Trained an IsolationForest model; tuned the threshold automatically to detect anomalies.
