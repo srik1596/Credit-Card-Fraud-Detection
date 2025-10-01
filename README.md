@@ -4,7 +4,7 @@ This project aims to detect fraudulent credit card transactions by applying anom
 ________________________________________
 🛠 Workflow & Steps
 1. Import & Setup
-Loaded necessary Python libraries (e.g. pandas, scikit-learn, matplotlib, seaborn).
+Loaded necessary Python libraries.
 
 2. Dataset Structuring & Exploration
 Organized dataset; explored basic structure (rows, features, types).
