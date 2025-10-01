@@ -16,7 +16,7 @@ Visualized distributions, trends, and feature relationships across fraud vs non-
 4. Scaling & Train/Test Split
 Applied feature scaling using StandardScaler and split data into training and testing sets.
 
-5. Isolation Forest Modeling
+5. Isolation Forest Modeling 
 Trained an IsolationForest model; tuned the threshold automatically to detect anomalies.
 
 6. PCA + DBSCAN Optimization
