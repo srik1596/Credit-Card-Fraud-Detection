@@ -1,4 +1,5 @@
 🔍 Project Overview
+
 This project aims to detect fraudulent credit card transactions by applying anomaly detection and machine learning techniques. Given the severe class imbalance (very few fraud cases), the workflow focuses on preprocessing, model tuning, combining multiple methods, and visualizing insights.
 ________________________________________
 🛠 Workflow & Steps
